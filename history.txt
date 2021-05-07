@@ -1,0 +1,50 @@
+  383  cd Coders/
+  384  ls
+  385  cd Repos/
+  386  ls
+  387  mkdir git-majonez
+  388  ls
+  389  cd git-majonez/
+  390  git init
+  391  touch main.cpp
+  392  git status
+  393  git add main.cpp
+  394  git commit -m "Initial commit"
+  395  git status
+  396  git add main.cpp
+  397  git commit -m "Farewell changed"
+  398  git remote add origin https://github.com/jakjan95/git-majonez.git
+  399  git remote -a
+  400  git remote -v
+  401  git push -u origin master
+  402  git checkout -b cs
+  403  git log
+  404  git status
+  405  git reset cf965dfe8748b4a887741f993f9d1cf25190d93b
+  406  git status
+  407  git checkout -- main.cpp
+  408  git status
+  409  git log
+  410  git status
+  411  git add main.cpp 
+  412  git commit -m "Greetings"
+  413  git status
+  414  git log
+  415  git push origin cs
+  416  git branch
+  417  git checkout master
+  418  git status
+  419  git log
+  420  git branch
+  421  git merge cs
+  422  git status
+  423  git add main.cpp
+  424  git status
+  425  git commit
+  426  git status
+  427  git log
+  428  git config --global core.editor "vim"
+  429  ls
+  430  git branch
+  431  touch history.txt
+  432  history
